@@ -11,8 +11,8 @@
 
 ## 📋 О проекте
 
->Web сервер для CPUD операций с CIM обьектами
->пока что реализованы  регистрация и авторизация пользователей
+>Web сервер для CPUD операций с CIM обьектами  
+пока что реализованы  регистрация и авторизация пользователей  
 
 
 
@@ -20,8 +20,8 @@
 
 ## 🏗️ Архитектура
 
-сервер выполнен в стиле Clean Architecture и REST API
-за основу брался данный гит-репозиторий: https://github.com/BrunoTanabe/fastapi-clean-architecture-ddd-template
+сервер выполнен в стиле Clean Architecture и REST API  
+за основу брался данный гит-репозиторий: https://github.com/BrunoTanabe/fastapi-clean-architecture-ddd-template  
 (брал от туда то, что посчитал полезным проекту)
 
 ---
@@ -183,8 +183,6 @@ EMS_Python_Fast_Api/
    ```
 
 Приложение будет доступно по адресу: `http://localhost:8000`
-
-API документация: `http://localhost:8000/docs`
 
 ---
 
