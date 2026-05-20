@@ -28,11 +28,11 @@
 
 ## 🛠️ Стэк технологий(на текущий момент)
 
-Python Fast Api - web фреймворк
-Dolt - база данных
-sqlalchemy - ORM
-Adminer - СУБД
-Docker-compose - для локального поднятие Dolt и Adminer
+Python Fast Api - web фреймворк  
+Dolt - база данных  
+sqlalchemy - ORM  
+Adminer - СУБД  
+Docker-compose - для локального поднятие Dolt и Adminer  
 
 
 ---
