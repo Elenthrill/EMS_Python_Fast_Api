@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncmy
+pydantic-settings
+bcrypt==4.0.1
+python-jose[cryptography]
+python-multipart
