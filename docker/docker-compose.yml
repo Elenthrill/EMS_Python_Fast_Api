@@ -11,7 +11,7 @@ services:
       DOLT_PASSWORD: apppass
     volumes:
       - dolt_data:/var/lib/dolt
-      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql   # ← изменён путь
     healthcheck:
       test: ["CMD", "dolt", "sql", "-q", "SELECT 1"]
       interval: 10s
@@ -22,9 +22,9 @@ services:
     image: adminer:latest
     container_name: dolt-adminer
     ports:
-      - "8080:8080"            # веб-морда будет доступна на http://localhost:8080
+      - "8080:8080"
     environment:
-      ADMINER_DEFAULT_SERVER: dolt   # имя сервиса Dolt внутри сети Docker
+      ADMINER_DEFAULT_SERVER: dolt
     depends_on:
       - dolt
 

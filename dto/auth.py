@@ -11,7 +11,7 @@ class LoginRequest(BaseModel):
     login: str
     password: str
 
-    # dto/responses/auth.py
-    class TokenResponse(BaseModel):
-        access_token: str
-        token_type: str
+
+class TokenResponse(BaseModel):
+    access_token: str
+    token_type: str

@@ -1,0 +1,43 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# ===== Виртуальное окружение =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Переменные окружения и секреты =====
+.env
+*.env.local
+*.env.production
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Dolt (версионируемая БД) =====
+dolt_data/
+# Если вдруг появятся локальные конфиги dolt
+.dolt/
+
+# ===== Docker =====
+# Исключить production-образы, если их случайно сохранили
+docker-compose.override.yml
+
+# ===== Кэш и временные файлы =====
+*.log
+*.tmp
+.cache/
