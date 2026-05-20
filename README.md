@@ -170,7 +170,7 @@ EMS_Python_Fast_Api/
    pip install -r requirements.txt
    ```
 
-4. **Поднимите  Dolt и Adminer с помошью субд**
+4. **Поднимите  Dolt и Adminer с помошью докера**
    ```
    docker-compose -f docker/docker-compose.yml up
    ```
