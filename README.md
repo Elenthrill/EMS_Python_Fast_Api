@@ -151,7 +151,7 @@ EMS_Python_Fast_Api/
 > - **requests** – схемы входящих запросов (`RegisterRequest`, `UpdateRoleRequest`);  
 > - **responses** – схемы ответов (`TokenResponse`, `UserResponse`).  
 
-### ### Запуск приложения
+### Запуск приложения
 
 1. **Клонируйте репозиторий**
    ```bash
