@@ -95,8 +95,8 @@ EMS_Python_Fast_Api/
 │   ├── 📄 user.py                  # схемы для запросов связанных с пользователем
 │
 ├── 📂 docker/                          # Docker-конфигурация
-│   ├── 📄 docker-compose.yml           # поднятие Dolt и Adminer
-│   └── 📄 init.sql                     # скрипт инициализации БД (опционально, т.к. есть create_all)
+    ├── 📄 docker-compose.yml           # поднятие Dolt и Adminer
+    └── 📄 init.sql                     # скрипт инициализации БД (опционально, т.к. есть create_all)
 ```
 
 ---
