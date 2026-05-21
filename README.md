@@ -61,8 +61,7 @@ EMS_Python_Fast_Api/
 │   ├── 📄 __init__.py
 │   └── 📂 user/                    # описание модели user
 │       ├── 📄 __init__.py
-│       ├── 📄 models.py            # класс user
-│       └── 📄 interfaces.py        # IUserRepository (абстрактный класс)
+│       ├── 📄 models.py            # класс user,IUserRepository (абстрактный класс)
 │
 ├── 📂 application/                 # определяет что делать с запросами
 │   ├── 📄 __init__.py
